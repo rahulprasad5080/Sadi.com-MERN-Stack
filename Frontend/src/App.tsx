@@ -1,12 +1,13 @@
 import { Outlet } from "react-router";
-
+import Header from "./componets/Header";
 
 const App = () => {
   return (
     <>
-    <Outlet />
+      <Header />
+      <Outlet />
     </>
   );
-}
+};
 
 export default App;
